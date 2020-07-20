@@ -1,0 +1,36 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+#header{
+	width: 100%;
+	height: 70px;
+	background-color: blue;
+	color: white;
+}
+#header > div{
+	padding: 25px 0 0 10px;
+}
+#ToDoMenu
+{
+	width:300px;
+	height:100%;
+	box-shadow: 0 0 5px #ccc;
+	position: fixed;
+}
+#body{
+	display: flex;
+}
+#TodoPage{
+	width:1600px;
+	height: 100%;
+	margin-left: 300px;
+	position: fixed;
+	//background-color: white;
+}
+.dropDownButttons{
+	 width:300px;
+	 height: 50PX;
+	 border: none;
+}
